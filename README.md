@@ -1,6 +1,6 @@
 <p align="center">
   <img
-    src=".github/assets/starterkit-cover.webp"
+    src=".github/src/starterkit-cover.png"
     alt="Express + TypeScript StarterKit"
     width="100%"
   />
