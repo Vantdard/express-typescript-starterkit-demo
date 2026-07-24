@@ -1,76 +1,139 @@
-﻿# VS Code Project StarterKit - Public Audit Demo
+<p align="center">
+  <img
+    src=".github/assets/starterkit-cover.webp"
+    alt="Express + TypeScript StarterKit"
+    width="100%"
+  />
+</p>
 
-This repository is a public, runnable audit demo for the commercial VS Code Project StarterKit V1.
+<h1 align="center">
+Express + TypeScript StarterKit
+</h1>
 
-It exists so buyers can inspect real engineering quality before purchasing the full private ZIP package.
+<p align="center">
+A production-ready backend foundation built with Express, TypeScript, Zod, Vitest and modular architecture.
+</p>
 
-## What This Repository Is
+<p align="center">
 
-This is a reduced but real version of the StarterKit foundation. It includes the core Express application, typed environment configuration, validation middleware, error handling, logging, the Health endpoint and real automated tests.
+<a href="https://vantdard.com/products/express-typescript-starterkit">
+🌐 Product
+</a>
 
-## What This Repository Is Not
+•
 
-This is not the full commercial product.
+<a href="https://vantdard.com">
+Website
+</a>
 
-The commercial package includes additional buyer-facing documentation, the complete example application module, distribution materials and the finalized commercial package contents.
+•
 
-## Included In This Public Demo
+<a href="#quick-start">
+Quick Start
+</a>
 
-- Express app/server separation.
-- Central API router under `/api`.
-- Helmet, CORS and request parsing middleware.
-- Typed environment configuration with dotenv and Zod.
-- Simple console logger.
-- Zod validation middleware.
-- Global error middleware.
-- Health endpoint.
-- Real tests with Vitest and Supertest.
-- TypeScript, ESLint and Prettier configuration.
+•
 
-## Reserved For The Commercial Version
+<a href="#documentation">
+Documentation
+</a>
 
-- Complete Users example module.
-- Full buyer onboarding documentation.
-- Full project structure documentation.
-- Distribution checklist and commercial release package documentation.
-- Commercial license file.
-- VS Code workspace recommendations.
-- GitHub Actions workflow.
-- Private strategy, roadmap and internal governance documents.
+•
 
-## Stack
+<a href="#feedback">
+Feedback
+</a>
 
-- Node.js 20+
+</p>
+
+---
+
+# Public Audit Demo
+
+This repository is the official public audit edition of the commercial **Express + TypeScript StarterKit** developed by **Vantdard**.
+
+It allows developers to inspect the project architecture, run the application, execute the automated test suite and evaluate the engineering quality before purchasing the complete commercial package.
+
+The goal is transparency.
+
+The repository contains real production-quality code rather than screenshots or simplified examples.
+
+---
+
+# Included in the Demo
+
+## Application Foundation
+
+- Express application/server separation
+- Central API router
+- Health endpoint
+- Helmet
+- CORS
+- Request parsing middleware
+
+## Typed Configuration
+
+- dotenv
+- Zod runtime validation
+- Typed configuration
+
+## Reliability
+
+- Global error middleware
+- Request validation middleware
+- Structured application architecture
+- Predictable error handling
+
+## Quality Tooling
+
 - TypeScript
-- Express
-- Zod
-- Vitest
-- Supertest
 - ESLint
 - Prettier
-- npm
+- Vitest
+- Supertest
 
-## Quick Start
+---
 
-Install dependencies:
+# Quality Evidence
+
+This repository is designed to be verified, not simply described.
+
+Run the complete quality pipeline locally.
+
+```bash
+npm run lint
+npm run test
+npm run build
+npm audit
+```
+
+Everything included in this repository is runnable.
+
+---
+
+# Quick Start
+
+Install dependencies.
 
 ```bash
 npm install
 ```
 
-Create your environment file:
+Create your environment file.
+
+Linux / macOS
 
 ```bash
 cp .env.example .env
 ```
 
-Windows PowerShell:
+Windows PowerShell
 
 ```powershell
 copy .env.example .env
 ```
 
-Start the development server:
+Start the development server.
 
 ```bash
 npm run dev
@@ -92,48 +155,88 @@ Expected response shape:
 }
 ```
 
-`uptime` and `timestamp` change on each request.
+---
 
-## Quality Checks
-
-```bash
-npm run lint
-npm run test
-npm run build
-npm audit
-```
-
-## Available Endpoint
-
-```text
-GET /api/health
-```
-
-## Public Demo Structure
+# Project Structure
 
 ```text
 src/
-  app.ts
-  server.ts
-  config/
-  middlewares/
-  modules/
-    health/
-  routes/
-  utils/
+├── app.ts
+├── server.ts
+├── config/
+├── middlewares/
+├── modules/
+│   └── health/
+├── routes/
+└── utils/
+
 tests/
+
 docs/
 ```
 
-## Why The Full Source Is Private
+---
 
-VS Code Project StarterKit is a commercial product. This public repo is intentionally scoped to provide technical confidence without redistributing the full paid package.
+# Public Demo vs Commercial Package
 
-The paid package is designed for developers who want a clean, professional Express + TypeScript foundation they can own, modify and use in real projects.
+| Feature | Public Demo | Commercial |
+|----------|:-----------:|:----------:|
+| Express foundation | ✅ | ✅ |
+| TypeScript | ✅ | ✅ |
+| Zod configuration | ✅ | ✅ |
+| Validation middleware | ✅ | ✅ |
+| Health endpoint | ✅ | ✅ |
+| Automated tests | ✅ | ✅ |
+| Example application module | — | ✅ |
+| Buyer onboarding documentation | — | ✅ |
+| Full architecture documentation | — | ✅ |
+| VS Code workspace configuration | — | ✅ |
+| Commercial license | — | ✅ |
+| Commercial release package | — | ✅ |
 
-## Documentation
+---
 
-- [Architecture Preview](docs/architecture-preview.md)
-- [Validation Results](docs/validation-results.md)
-- [Commercial Package Preview](docs/commercial-package-preview.md)
-- [FAQ](docs/faq.md)
+# Documentation
+
+- Architecture Preview
+- Validation Results
+- Commercial Package Preview
+- FAQ
+
+---
+
+# Feedback
+
+This repository exists to make the project technically transparent.
+
+If you find something that can be improved, feel free to open a GitHub Issue.
+
+Constructive feedback about architecture, documentation, developer experience or code quality is always welcome.
+
+---
+
+# About Vantdard
+
+Vantdard builds engineering software designed to remain valuable for years.
+
+Our philosophy is simple.
+
+- Reliability over hype.
+- Simplicity over complexity.
+- Engineering-first design.
+- Long-term maintainability.
+- Consistent developer experience.
+
+Website:
+
+https://vantdard.com
+
+---
+
+<p align="center">
+
+Built with precision.
+
+Designed for the long term.
+
+</p>
